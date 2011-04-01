@@ -128,10 +128,28 @@ foo.toString ();
     should be highlighted SAME way as anonymous function expressions in same context */
 
 ({
-  "foo": function() {
+  "a": function() {
     
   },
-  "bar": function bar() {
+  "b": function b() {
     
-  }
+  },
+  c: function() {
+    
+  },
+  d: function d() {
+    
+  },
+  e: wrapper(function() {
+    
+  }),
+  f: wrapper(function f() {
+    
+  }),
+  'g': wrapper(function() {
+    
+  }),
+  'h': wrapper(function h() {
+    
+  }),
 })
